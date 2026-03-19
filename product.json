@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "Scarlett Blooms",
+        "price": 5,
+        "image": "services page images/Artificial Flowers/Scarlett Blooms.png",
+        "alt": "Scarlett Blooms"
+    },
+    {
+        "id": 2,
+        "name": "Mini Rose Diffuser",
+        "price": 7,
+        "image": "services page images/Artificial Flowers/Mini Rose Diffuser.png",
+        "alt": "Mini Rose Diffuser"
+    },
+    {
+        "id": 3,
+        "name": "Majestic",
+        "price": 10,
+        "image": "services page images/Artificial Flowers/Majestic.png",
+        "alt": "Majestic"
+    },
+    {
+        "id": 4,
+        "name": "Love Galore",
+        "price": 8,
+        "image": "services page images/Artificial Flowers/Love Galore.png",
+        "alt": "Love Galore"
+    },
+    {
+        "id": 5,
+        "name": "Grace",
+        "price": 7,
+        "image": "services page images/Floral Gifts/Grace.jpg",
+        "alt": "Grace"
+    },
+    {
+        "id": 6,
+        "name": "Colors",
+        "price": 8,
+        "image": "services page images/Floral Gifts/Colors.jpg",
+        "alt": "Colors"
+    },
+    {
+        "id": 7,
+        "name": "Charm – 30 Roses",
+        "price": 8,
+        "image": "services page images/Floral Gifts/Charm – 30 Roses.jpeg",
+        "alt": "Charm – 30 Roses"
+    },
+    {
+        "id": 8,
+        "name": "Botanist",
+        "price": 10,
+        "image": "services page images/Floral Gifts/Botanist.jpg",
+        "alt": "Botanist"
+    },
+    {
+        "id": 9,
+        "name": "Stitch Teddy Bundle (Blue)",
+        "price": 10,
+        "image": "services page images/Fluffies & Flowers/Stitch Teddy Bundle (Blue).png",
+        "alt": "Stitch Teddy Bundle (Blue)"
+    },
+    {
+        "id": 10,
+        "name": "New Born Gift Bundle",
+        "price": 10,
+        "image": "services page images/Fluffies & Flowers/New Born Gift Bundle.png",
+        "alt": "New Born Gift Bundle"
+    },
+    {
+        "id": 11,
+        "name": "My Monkey Snuggle",
+        "price": 12,
+        "image": "services page images/Fluffies & Flowers/My Monkey Snuggle.png",
+        "alt": "My Monkey Snuggle"
+    },
+    {
+        "id": 12,
+        "name": "My Boo – Pooh",
+        "price": 20,
+        "image": "services page images/Fluffies & Flowers/My Boo – Pooh.png",
+        "alt": "My Boo – Pooh"
+    },
+    {
+        "id": 13,
+        "name": "Graduation teddy Bear (Ivory)",
+        "price": 10,
+        "image": "services page images/Graduation/Graduation teddy Bear (Ivory).png",
+        "alt": "Graduation teddy Bear (Ivory)"
+    },
+    {
+        "id": 14,
+        "name": "Graduation Season",
+        "price": 20,
+        "image": "services page images/Graduation/Graduation Season.png",
+        "alt": "Graduation Season"
+    },
+    {
+        "id": 15,
+        "name": "Country Classic",
+        "price": 6,
+        "image": "services page images/Graduation/Country Classic.png",
+        "alt": "Country Classic"
+    },
+    {
+        "id": 16,
+        "name": "Charms",
+        "price": 6,
+        "image": "services page images/Graduation/Charms.png",
+        "alt": "Charms"
+    },
+    {
+        "id": 17,
+        "name": "Love Bunch",
+        "price": 8,
+        "image": "services page images/Love/Love Bunch.jpg",
+        "alt": "Love Bunch"
+    },
+    {
+        "id": 18,
+        "name": "Love & Roses",
+        "price": 10,
+        "image": "services page images/Love/Love & Roses.png",
+        "alt": "Love & Roses"
+    },
+    {
+        "id": 19,
+        "name": "Hugs & Kisses",
+        "price": 10,
+        "image": "services page images/Love/Hugs & Kisses.png",
+        "alt": "Hugs & Kisses"
+    },
+    {
+        "id": 20,
+        "name": "Classic Red",
+        "price": 5,
+        "image": "services page images/Love/Classic Red.png",
+        "alt": "Classic Red"
+    },
+    {
+        "id": 21,
+        "name": "Mother’s Day Rose Bear Box",
+        "price": 20,
+        "image": "services page images/Mother's Day/Mother’s Day Rose Bear Box.png",
+        "alt": "Mother’s Day Rose Bear Box"
+    },
+    {
+        "id": 22,
+        "name": "Heartiest Bundle",
+        "price": 15,
+        "image": "services page images/Mother's Day/Heartiest Bundle.png",
+        "alt": "Heartiest Bundle"
+    },
+    {
+        "id": 23,
+        "name": "Ammi’s Fav",
+        "price": 25,
+        "image": "services page images/Mother's Day/Ammi’s Fav.png",
+        "alt": "Ammi’s Fav"
+    },
+    {
+        "id": 24,
+        "name": "Amma Love",
+        "price": 10,
+        "image": "services page images/Mother's Day/Amma Love.png",
+        "alt": "Amma Love"
+    }
+]

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="icon" href="./logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pb-5">
+
+    <!--note-->
+    <div style="background-color: red;">
+        <div class="container">
+            <div class="row">
+                <span style="color: white; text-align: center;">Note: Please be kind enough to run my website through
+                    Live
+                    Server extension in visual studio code. Because some of the features won't work as intended if run
+                    without
+                    Live Server</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <!--left side-->
+            <div class="col-lg-6 mt-5">
+                <div class="returnCart">
+                    <a href="./services.html" style="text-decoration: none;">
+                        < keep shopping</a>
+                            <h1>List Product in Cart</h1>
+                            <div class="list">
+                                <div class="item">
+                                    <img src="images/1.webp" loading="lazy">
+                                    <div class="info">
+                                        <div class="name">PRODUCT 1</div>
+                                        <div class="price">$22/1 product</div>
+                                    </div>
+                                    <div class="quantity">5</div>
+                                    <div class="returnPrice">$433.3</div>
+                                </div>
+                            </div>
+
+                            <div class="total">
+                                <div class="return">
+                                    <div class="trow">
+                                        <div>Total Quantity</div>
+                                        <div class="totalQuantity">70</div>
+                                    </div>
+                                    <div class="trow">
+                                        <div>Total Price</div>
+                                        <div class="totalPrice">$900</div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+
+            <!--right side-->
+            <div class="col-lg-6  mt-5">
+                <form id="checkoutform" action="checkoutemail.php" method="post">
+                    <div class="row checkout d-flex flex-wrap">
+                        <div class="d-flex flex-column col-lg-6">
+                            <div class="mb-4">
+                                <h4 class="mb-4">BILLING ADDRESS</h4>
+                                <div class="w-100">
+                                    <label for="fname">Full Name:</label><br>
+                                    <input type="text" id="fname" name="fname" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="email">Email:</label><br>
+                                    <input type="email" id="email" name="email" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="address">Address:</label><br>
+                                    <input type="text" id="address" name="address" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="city">City:</label><br>
+                                    <input type="text" id="city" name="city" class="w-100" required><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column col-lg-6 payments">
+                            <div class="mb-2">
+                                <h4 class="mb-3">PAYMENT</h4>
+                                <div class="w-100">
+                                    <label for="cards">Cards Accespted</label><br>
+                                    <div class="d-flex ckeckouticons">
+                                        <img src="./payment-gateways/4375165_card_credit_logo_visa_icon.png"
+                                            alt="visa icon" loading="lazy">
+                                        <img src="./payment-gateways/70594_mastercard_straight_icon.png"
+                                            alt="mastercard icon" loading="lazy">
+                                        <img src="./payment-gateways/1933704_american express_amex_charge_credit card_payment_icon.png"
+                                            alt="american express icon" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="cardname">Name On Card:</label><br>
+                                    <input type="text" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="cardnumber">Credit Card Number:</label><br>
+                                    <input type="number" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="w-100">
+                                    <label for="expmonth">Exp. Month:</label><br>
+                                    <input type="number" class="w-100" required><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-sm-row flex-column justify-content-between mb-4">
+                            <div class="checkoutbottom">
+                                <div class="w-100">
+                                    <label for="state">State:</label><br>
+                                    <input type="text" id="state" name="state" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="checkoutbottom">
+                                <div class="w-100">
+                                    <label for="zipcode">Zip Code:</label><br>
+                                    <input type="text" id="zipcode" name="zipcode" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="checkoutbottom">
+                                <div class="w-100">
+                                    <label for="expyear">Exp. YEAR:</label><br>
+                                    <input type="number" class="w-100" required><br>
+                                </div>
+                            </div>
+                            <div class="checkoutbottom">
+                                <div class="w-100">
+                                    <label for="cvv">CVV:</label><br>
+                                    <input type="number" class="w-100" required><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="w-100 button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="checkout.js"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert('Thanks for placing your order. We will ship the products to your doorstep as soon as possible');
+            window.location.href = 'index.html';
+        });
+    </script>
+
+</body>
+
+</html>
